@@ -8,10 +8,11 @@ Custom Yocto layer implementing progressive security hardening on Yocto Styhead 
 
 | Branch | Description | Target |
 |--------|-------------|--------|
-| `main` | Base hardening D1-D7, reference branch | QEMU x86-64 |
+| `main` | Hardened image with kernel and user-space analysis tooling (Yocto 6.0 Wrynose LTS, linux-yocto 6.18) | NVIDIA Jetson AGX Orin |
 | `ext4-dm-verity-selinux` | ext4 + dm-verity + SELinux enforcing | BeagleBone Black |
 | `squashfs-selinux-permissive` | SquashFS + SELinux permissive + dm-verity | BeagleBone Black |
 | `yocto-hpc` | KVM HPC cluster — Slurm 25.11.4, benchmarked | QEMU/KVM |
+| `beamfs` | Yocto integration of beamfs - resilient filesystem, published with the public release of beamfs-devel | not yet published |
 
 ## Hardening Matrix
 
