@@ -54,8 +54,9 @@ All 14 test jobs completed successfully across compute01, compute02, compute03.
 
 | Branch | Description |
 |--------|-------------|
-| `main` | System hardening D1-D7 (SELinux, dm-verity) |
+| `main` | Hardened image for NVIDIA Jetson AGX Orin with kernel and user-space analysis tooling |
 | `yocto-hpc` | KVM HPC cluster — **active branch** |
+| `beamfs` | Yocto integration of beamfs - resilient filesystem, published with the public release of beamfs-devel |
 
 ## Host Requirements
 
